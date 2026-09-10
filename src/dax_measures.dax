@@ -1,0 +1,20 @@
+// Total Customers Count
+Total Customers = COUNTROWS('cleaned_telco_churn')
+
+// Churned Customers Count
+Churned Customers = 
+CALCULATE(
+    COUNTROWS('cleaned_telco_churn'), 
+    'cleaned_telco_churn'[Churn] = "Yes"
+)
+
+// Overall Churn Rate (%)
+Churn Rate = 
+DIVIDE([Churned Customers], [Total Customers], 0)
+
+// Lost Monthly Recurring Revenue
+Lost MRR = 
+CALCULATE(
+    SUM('cleaned_telco_churn'[MonthlyCharges]), 
+    'cleaned_telco_churn'[Churn] = "Yes"
+)
