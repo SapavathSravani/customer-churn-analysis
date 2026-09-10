@@ -36,7 +36,7 @@ Using Python for exploratory data analysis (EDA) and data transformation, key va
 telco-customer-churn-analysis/
 ├── data/
 │   ├── WA_Fn-UseC_-Telco-Customer-Churn.csv
-│   └── cleaned_telco_churn.csv
+│
 ├── dashboard/
 │   └── Customer_Churn_Analysis.pbix
 ├── screenshots/
