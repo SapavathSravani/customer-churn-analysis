@@ -1,20 +1,11 @@
 # 📊 Customer Churn Analysis & Power BI Dashboard
 
-![Power BI](https://img.shields.io/badge/PowerBI-Dashboard-yellow?logo=powerbi)
-![Python](https://img.shields.io/badge/Python-EDA%20%26%20Data%20Cleaning-blue?logo=python)
-![Status](https://img.shields.io/badge/Project-Completed-success)
-
 ## 📌 Project Overview
 This project focuses on analyzing customer churn behavior using the **Telco Customer Churn** dataset (7,043 customer records) and developing an interactive **Power BI Dashboard** to identify high-risk customer segments and support proactive retention strategies.
 
 Using Python for exploratory data analysis (EDA) and data transformation, key variables influencing churn—such as contract type, payment method, and tenure—were isolated and visualized in Power BI for actionable executive reporting.
 
 ---
-
-## 📸 Dashboard Preview
-
-![Dashboard Overview](screenshots/dashboard_overview.png)
-
 ---
 
 ## 🎯 Key Business Findings
