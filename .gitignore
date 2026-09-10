@@ -1,0 +1,17 @@
+# Python temporary and cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints
+
+# OS Specific Files
+.DS_Store
+Thumbs.db
+
+# Power BI Temporary Files
+*.tmp
